@@ -109,6 +109,8 @@ fi
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+alias hacker-man="kitty --detach --start-as=fullscreen --override font_size=20 cmatrix -M \"Hacking the mainframe...\""
+
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
