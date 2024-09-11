@@ -129,3 +129,4 @@ esac
 # pnpm end
 
 bindkey '^L' clear-screen
+export "MICRO_TRUECOLOR=1"
