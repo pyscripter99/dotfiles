@@ -16,6 +16,7 @@
         "memory",
         "temperature",
 	"battery",
+        "power-profiles-daemon",
 	"clock",
 	"custom/lock",
 	"custom/power"
@@ -106,6 +107,17 @@
             "default": ["", " ", "  "]
         },
         "on-click": "pavucontrol"
+    },
+    "power-profiles-daemon": {
+        "format": "{icon}",
+        "tooltip-format": "Power profile: {profile}",
+        "tooltip": true,
+        "format-icons": {
+             "default": " ",
+             "performance": " ",
+             "balanced": " ",
+             "power-saver": "󱧥"
+        }
     },
     "custom/media": {
         "format": "{icon} {}",
